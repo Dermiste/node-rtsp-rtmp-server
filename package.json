@@ -13,6 +13,7 @@
   },
   "scripts":{
     "hi":"echo 'hi'",
-    "postinstall":"coffee . -c"
+    "postinstall":"coffee -c ."
   }
 }
+
