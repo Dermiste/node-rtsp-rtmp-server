@@ -4,7 +4,7 @@ module.exports =
   #######################
 
   # Server listen port
-  serverPort: 80
+  serverPort: 10080
 
   # RTMP server listen port
   rtmpServerPort: 1935

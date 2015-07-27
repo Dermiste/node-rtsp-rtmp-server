@@ -3,12 +3,16 @@
   "version": "0.3.1",
   "description": "RTSP/RTMP/HTTP hybrid server",
   "author": "Nao Iizuka <iizuka@kyu-mu.net>",
-  "main": "stream_server.js",
+  "main": "server.js",
   "dependencies": {
     "ejs"    : "0.8.x",
     "sequent": ">= 0.1.2"
   },
   "engines": {
     "node": ">= 0.10.0"
+  },
+  "scripts":{
+    "hi":"echo 'hi'",
+    "postinstall":"coffee . -c"
   }
 }
